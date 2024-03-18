@@ -1,0 +1,63 @@
+
+* {
+    font-family: Avangers;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+body{
+    font-size: 1.2rem;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    background-image: url(/img/black-concrete-wall.jpg);
+}
+
+@font-face {
+    font-family: Avangers;
+    src: url(/font/ap-yh.ttf);
+}
+
+.navbar{
+    font-weight: 400;
+}
+.navbar-brand{
+    font-family: avangers;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nav-item{
+    font-size: 150%;
+    padding: 10px;
+}
+
+.nav-item a{
+    color: white;
+    transition: all .55s ease;
+}
+
+.nav-item a:hover{
+    color: brown;
+}
+
+.hero {
+    color: white;
+}
+
+.hero img {
+    width: 400px;
+}
+
+.hero img:hover{
+    width: 500px;
+    transition:20s ease;
+}
+
+.hero p{
+    width: 80%;
+    text-indent: 40px;
+}
